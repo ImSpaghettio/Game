@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+using Game1.Screens;
+
 namespace Game1
 {
     /// <summary>
@@ -27,7 +29,7 @@ namespace Game1
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            ScreenManager.Instance.Initialize();
             base.Initialize();
         }
 
@@ -39,7 +41,7 @@ namespace Game1
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            ScreenManager.Instance.LoadContent();
             // TODO: use this.Content to load your game content here
         }
 
@@ -50,6 +52,7 @@ namespace Game1
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
+            ScreenManager.Instance.UnloadContent();
         }
 
         /// <summary>
@@ -63,6 +66,7 @@ namespace Game1
                 Exit();
 
             // TODO: Add your update logic here
+            ScreenManager.Instance.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -76,7 +80,9 @@ namespace Game1
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            spriteBatch.Begin();
+            ScreenManager.Instance.Draw(spriteBatch);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }

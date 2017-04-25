@@ -1,21 +1,24 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Game1
+namespace Game1.Screens
 {
+    /// <summary>
+    /// Author: Alex
+    /// Description: Parent class of all screen classes.
+    /// </summary>
+
     public class Screen
     {
+        // ContentManager to be used by all the screens
         protected ContentManager content;
 
+        // Virtual Methods
         public virtual void Initialize() { }
         public virtual void LoadContent()
         {
+            // Gets the ContentManager from ScreenManager
             content = new ContentManager(ScreenManager.Instance.content.ServiceProvider, "Content");
         }
         public virtual void UnloadContent() { }
