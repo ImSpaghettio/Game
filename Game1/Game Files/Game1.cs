@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 using Game1.Screens;
+using Game1.Tools;
 
 namespace Game1
 {
@@ -13,11 +14,19 @@ namespace Game1
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        GameSettings Game_Settings;
+        XmlManager<GameSettings> Xml;
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            Game_Settings = new GameSettings();
+            Xml = new XmlManager<GameSettings>();
+            Xml.Type = Game_Settings.Type;
+            Game_Settings = Xml.Load("../../../../Xml/GameSettings.xml");
+            graphics.PreferredBackBufferHeight = Game_Settings.Screen_Height;
+            graphics.PreferredBackBufferWidth = Game_Settings.Screen_Width;
         }
 
         /// <summary>
@@ -29,6 +38,7 @@ namespace Game1
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            
             ScreenManager.Instance.Initialize();
             base.Initialize();
         }

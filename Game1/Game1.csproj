@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game Files\Game1.cs" />
+    <Compile Include="Game Files\GameSettings.cs" />
     <Compile Include="Game Objects\Item.cs" />
     <Compile Include="Managing Classes\Inventory.cs" />
     <Compile Include="Screens\GameScreen.cs" />
@@ -47,7 +48,8 @@
     <Compile Include="Screens\Screen.cs" />
     <Compile Include="Screens\ScreenManager.cs" />
     <Compile Include="Screens\TitleScreen.cs" />
-    <Compile Include="Tools\XmlSerializer.cs" />
+    <Compile Include="Tools\InputManager.cs" />
+    <Compile Include="Tools\XmlManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
@@ -58,7 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
-    <Content Include="Xml\TitleScreen.xml" />
+    <Content Include="Xml\GameSettings.xml" />
+    <Content Include="Xml\TitleScreen.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
