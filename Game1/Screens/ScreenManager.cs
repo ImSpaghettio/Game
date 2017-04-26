@@ -20,7 +20,7 @@ namespace Game1.Screens
         private static ScreenManager instance;
 
         // The current screen that is loaded and dsplayed
-        public static Screen currentScreen;
+        public static Screen currentScreen = new GameScreen();
 
         // ContentManager item
         public ContentManager content { get; private set; }
@@ -40,27 +40,28 @@ namespace Game1.Screens
 
         public void Initialize()
         {
-
+            currentScreen.Initialize();
         }
 
-        public void LoadContent()
+        public void LoadContent(ContentManager Content)
         {
-
+            content = Content;
+            currentScreen.LoadContent();
         }
 
         public void UnloadContent()
         {
-
+            currentScreen.UnloadContent();
         }
 
         public void Update(GameTime gameTime)
         {
-
+            currentScreen.Update(gameTime);
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-
+            currentScreen.Draw(spriteBatch);
         }
     }
 }

@@ -18,6 +18,7 @@ namespace Game1.Tools
 
     public class XmlManager <T>
     {
+        
         // The type of the object to be serialized or deserialize
         public Type Type;
 

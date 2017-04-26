@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <inventory>
+    <id>1</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>2</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>3</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>4</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>5</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>6</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>7</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>8</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>9</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>10</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>11</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>12</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>13</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>14</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>15</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>16</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>17</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>18</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>19</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>20</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>21</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>22</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>23</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>24</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>25</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>26</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>27</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>28</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>29</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>30</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>31</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>32</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>33</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>34</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>35</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>36</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>37</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>38</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>39</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>40</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>41</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>42</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>43</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>44</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>45</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>46</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>47</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>48</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>49</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <inventory>
+    <id>50</id>
+    <uses>0</uses>
+    <damage>0</damage>
+    <armor>0</armor>
+    <name />
+    <description />
+    <texture />
+    <positionX>0</positionX>
+    <positionY>0</positionY>
+  </inventory>
+  <hi>3</hi>
+</Inventory>

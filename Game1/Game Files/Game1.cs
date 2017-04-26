@@ -16,6 +16,9 @@ namespace Game1
         SpriteBatch spriteBatch;
         GameSettings Game_Settings;
         XmlManager<GameSettings> Xml;
+        SpriteFont Font1;
+
+        string output = "";
 
         public Game1()
         {
@@ -51,7 +54,8 @@ namespace Game1
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            ScreenManager.Instance.LoadContent();
+            ScreenManager.Instance.LoadContent(Content);
+            Font1 = Content.Load<SpriteFont>("../../../../Content/Font1");
             // TODO: use this.Content to load your game content here
         }
 
@@ -76,6 +80,7 @@ namespace Game1
                 Exit();
 
             // TODO: Add your update logic here
+            InputManager.Update();
             ScreenManager.Instance.Update(gameTime);
 
             base.Update(gameTime);
@@ -89,6 +94,7 @@ namespace Game1
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
+            output += InputManager.KeyTyped();
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             ScreenManager.Instance.Draw(spriteBatch);
